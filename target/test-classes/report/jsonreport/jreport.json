@@ -1,0 +1,297 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1029300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user should be in facebook home page",
+            "match": {
+              "location": "StepDefnitions.the_user_should_be_in_facebook_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-05T06:28:10.333Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3548416500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.me()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2792800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.me1()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "to check login functionality with valid creditionals",
+        "description": "",
+        "id": "login-functionality;to-check-login-functionality-with-valid-creditionals",
+        "after": [
+          {
+            "result": {
+              "duration": 105700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.m21()"
+            }
+          },
+          {
+            "result": {
+              "duration": 605078400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.m2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 155026300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user fills the valid login creditionals in username and password field",
+            "match": {
+              "location": "StepDefnitions.the_user_fills_the_valid_login_creditionals_in_username_and_password_field(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "user",
+                  "pass"
+                ]
+              },
+              {
+                "cells": [
+                  "user1",
+                  "pass1"
+                ]
+              },
+              {
+                "cells": [
+                  "user2",
+                  "pass2"
+                ]
+              },
+              {
+                "cells": [
+                  "user3",
+                  "pass3"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75027900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click the login button",
+            "match": {
+              "location": "StepDefnitions.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 507600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user should navigate to the home page",
+            "match": {
+              "location": "StepDefnitions.the_user_should_navigate_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@group1"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 452700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user should be in facebook home page",
+            "match": {
+              "location": "StepDefnitions.the_user_should_be_in_facebook_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-05T06:28:14.747Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2568357600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.me()"
+            }
+          },
+          {
+            "result": {
+              "duration": 171100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.me1()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "to check login functionality with invalid creditionals",
+        "description": "",
+        "id": "login-functionality;to-check-login-functionality-with-invalid-creditionals",
+        "after": [
+          {
+            "result": {
+              "duration": 84400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.m21()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 269061700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user fills the invalid login creditionals in username and password field",
+            "match": {
+              "location": "StepDefnitions.the_user_fills_the_invalid_login_creditionals_in_username_and_password_field(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "user",
+                  "pass"
+                ]
+              },
+              {
+                "cells": [
+                  "user1",
+                  "pass1"
+                ]
+              },
+              {
+                "cells": [
+                  "user2",
+                  "pass2"
+                ]
+              },
+              {
+                "cells": [
+                  "user3",
+                  "pass3"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75175600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "click the login button",
+            "match": {
+              "location": "StepDefnitions.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 316500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user should navigate to the invalid page",
+            "match": {
+              "location": "StepDefnitions.the_user_should_navigate_to_the_invalid_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@group2"
+          }
+        ]
+      }
+    ],
+    "name": "login functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/search.feature",
+    "tags": [
+      {
+        "name": "@all",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

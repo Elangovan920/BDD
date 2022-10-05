@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="7.331073">
+<testcase classname="login functionality" name="to check login functionality with valid creditionals" time="4.414607">
+<system-out><![CDATA[Given the user should be in facebook home page..............................passed
+When the user fills the valid login creditionals in username and password field.passed
+And click the login button..................................................passed
+Then the user should navigate to the home page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="login functionality" name="to check login functionality with invalid creditionals" time="2.916466">
+<system-out><![CDATA[Given the user should be in facebook home page..............................passed
+When the user fills the invalid login creditionals in username and password field.passed
+And click the login button..................................................passed
+Then the user should navigate to the invalid page...........................passed
+]]></system-out>
+</testcase>
+</testsuite>
